@@ -11,7 +11,7 @@
 Install-Package Microsoft.EntityFrameworkCore.SqlServer
 
 ```
-> Database First Model: Setup
+### Database First Model: Setup
 - Scaffolding DbContext from DB with Scaffold-DbContext use command in **Package Manager Console**:
 
 ```
