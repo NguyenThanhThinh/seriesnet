@@ -53,13 +53,13 @@ Install-Package Microsoft.EntityFrameworkCore.SqlServer
 
 - Migrations in EF Core keep their history 
 
-> To use migrations in EF Core, we use the Add-Migration command from the **Package Manager Console**
+-  To use migrations in EF Core, we use the Add-Migration command from the **Package Manager Console**
 ```
 Add-Migration {MigrationName}
 
 ```
-> To undo a migration, we use **Remove-Migration**
-> Commit changes to the database, using **Update-Database**
+- To undo a migration, we use **Remove-Migration**
+- Commit changes to the database, using **Update-Database**
 
 
 
