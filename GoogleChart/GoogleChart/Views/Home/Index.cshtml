@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewData["Title"] = "ColumnChart";
+}
+
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">Column Chart</div>
+                <div class="card-body">
+                    <div id="divColumnChart" style="width:600px; height:300px">
+                    </div>
+                </div>
+                <div class="card-footer"></div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">Line Chart</div>
+                <div class="card-body">
+                    <div id="divLineChart" style="width:600px; height:300px">
+                    </div>
+                </div>
+                <div class="card-footer"></div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">Pie Chart</div>
+                <div class="card-body">
+                    <div id="divPieChart" style="width:600px; height:300px">
+                    </div>
+                </div>
+                <div class="card-footer"></div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">Area Chart</div>
+                <div class="card-body">
+                    <div id="divAreaChart" style="width:600px; height:300px">
+                    </div>
+                </div>
+                <div class="card-footer"></div>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+
+    <script src="~/js/columnchart.js"></script>
+    <script src="~/js/linechart.js"></script>
+    <script src="~/js/piechart.js"></script>
+    <script src="~/js/areachart.js"></script>
+}
+
