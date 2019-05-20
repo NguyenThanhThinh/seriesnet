@@ -127,3 +127,35 @@ Console.WriteLine(a < a);  //false
 Console.WriteLine(a <= 5); // true
 Console.WriteLine(b == 2 * a); // true
 ```
+
+## if-else Statement
+
+- The most simple conditional statement
+> Example: Take as an input a grade and check if the student has passed the exam (grade >= 3.00)
+
+```
+double grade = double.Parse(Console.ReadLine());
+if (grade >= 3.00)
+{
+  Console.WriteLine("Passed!");
+}
+
+```
+
+## The if-else Statement
+
+- Executes one branch if the condition is true and another, if it is false 
+> Example: Upgrade the last example, so it prints "Failed!", if the mark is lower than 3.00:
+
+```
+if (grade >= 3.00)
+{
+  Console.WriteLine("Passed!");
+}
+else 
+{
+  // TODO: Print the message //
+}
+
+```
+
