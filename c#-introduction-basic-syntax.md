@@ -1,6 +1,6 @@
 ## C# Introduction
 
-- C# is modern, flexible, general-purposeprogramming language
+- C# is modern, flexible, general-purpose programming language
 
 - Object-oriented by nature, statically-typed, compiled
 
